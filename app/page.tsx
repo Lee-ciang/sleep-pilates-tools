@@ -25,7 +25,14 @@ export default function Home() {
     Sleep Calculator
   </a>
 </li>
-            <li>Sleep Debt Calculator</li>
+            <li>
+  <a
+    href="/sleep-debt-calculator"
+    className="text-blue-600 hover:underline"
+  >
+    Sleep Debt Calculator
+  </a>
+</li>
             <li>Nap Calculator</li>
             <li>Stretch Routine Generator</li>
             <li>Sleep Cycle Calculator</li>

@@ -13,6 +13,13 @@ export default function SleepCalculatorPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="mx-auto max-w-5xl px-6 py-16">
+
+        <a
+  href="/"
+  className="text-sm font-medium text-blue-600 hover:underline"
+>
+  ← Back to all tools
+</a>
         <h1 className="text-4xl font-bold">
           Sleep Calculator
         </h1>

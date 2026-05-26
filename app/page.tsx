@@ -17,7 +17,14 @@ export default function Home() {
           </h2>
 
           <ul className="mt-6 space-y-3">
-            <li>Sleep Calculator</li>
+            <li>
+  <a
+    href="/sleep-calculator"
+    className="text-blue-600 hover:underline"
+  >
+    Sleep Calculator
+  </a>
+</li>
             <li>Sleep Debt Calculator</li>
             <li>Nap Calculator</li>
             <li>Stretch Routine Generator</li>

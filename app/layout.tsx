@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "Sleep & Pilates Tools",
   description:
     "Free sleep calculators, sleep cycle tools, nap calculators, and stretching resources to help you sleep better and move better.",
+
+  verification: {
+    google: "XjoiYPpNdTrSD7_K7mYmA2_6RtlOqMTqGnCPOVJhGxc",
+  },
 };
 
 export default function RootLayout({

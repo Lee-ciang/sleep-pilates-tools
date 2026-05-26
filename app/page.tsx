@@ -41,7 +41,14 @@ export default function Home() {
     Nap Calculator
   </a>
 </li>
-            <li>Stretch Routine Generator</li>
+            <li>
+  <a
+    href="/bedtime-calculator"
+    className="text-blue-600 hover:underline"
+  >
+    Bedtime Calculator
+  </a>
+</li>
             <li>
   <a
     href="/sleep-cycle-calculator"

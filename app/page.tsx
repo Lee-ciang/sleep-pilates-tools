@@ -33,7 +33,14 @@ export default function Home() {
     Sleep Debt Calculator
   </a>
 </li>
-            <li>Nap Calculator</li>
+            <li>
+  <a
+    href="/nap-calculator"
+    className="text-blue-600 hover:underline"
+  >
+    Nap Calculator
+  </a>
+</li>
             <li>Stretch Routine Generator</li>
             <li>Sleep Cycle Calculator</li>
           </ul>

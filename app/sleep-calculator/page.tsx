@@ -120,6 +120,41 @@ export default function SleepCalculatorPage() {
     </div>
   </div>
 </section>
+
+<section className="mt-12">
+  <h2 className="text-2xl font-semibold">
+    Related Sleep Tools
+  </h2>
+
+  <div className="mt-6 grid gap-4 sm:grid-cols-3">
+    <div className="rounded-lg border border-gray-200 p-5">
+      <h3 className="font-semibold">
+        Sleep Debt Calculator
+      </h3>
+      <p className="mt-2 text-sm text-gray-600">
+        Estimate how much sleep you may be missing over time.
+      </p>
+    </div>
+
+    <div className="rounded-lg border border-gray-200 p-5">
+      <h3 className="font-semibold">
+        Nap Calculator
+      </h3>
+      <p className="mt-2 text-sm text-gray-600">
+        Find a practical nap length based on your schedule.
+      </p>
+    </div>
+
+    <div className="rounded-lg border border-gray-200 p-5">
+      <h3 className="font-semibold">
+        Sleep Cycle Calculator
+      </h3>
+      <p className="mt-2 text-sm text-gray-600">
+        Plan sleep around full 90-minute sleep cycles.
+      </p>
+    </div>
+  </div>
+</section>
       </div>
     </main>
   );

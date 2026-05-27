@@ -75,6 +75,15 @@ export default function Home() {
     Sleep Duration Calculator
   </a>
 </li>
+
+<li>
+  <a
+    href="/sleep-efficiency-calculator"
+    className="text-blue-600 hover:underline"
+  >
+    Sleep Efficiency Calculator
+  </a>
+</li>
           </ul>
         </section>
       </div>

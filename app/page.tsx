@@ -66,6 +66,15 @@ export default function Home() {
     Wake Time Calculator
   </a>
 </li>
+
+<li>
+  <a
+    href="/sleep-duration-calculator"
+    className="text-blue-600 hover:underline"
+  >
+    Sleep Duration Calculator
+  </a>
+</li>
           </ul>
         </section>
       </div>

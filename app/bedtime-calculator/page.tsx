@@ -123,7 +123,7 @@ export default function BedtimeCalculatorPage() {
   <div className="mt-6 grid gap-4 sm:grid-cols-3">
     <a
       href="/sleep-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
         Sleep Calculator
@@ -135,7 +135,7 @@ export default function BedtimeCalculatorPage() {
 
     <a
       href="/sleep-cycle-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
         Sleep Cycle Calculator
@@ -146,14 +146,14 @@ export default function BedtimeCalculatorPage() {
     </a>
 
     <a
-      href="/sleep-debt-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      href="/wake-time-calculator"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
-        Sleep Debt Calculator
+        Wake Time Calculator
       </h3>
       <p className="mt-2 text-sm text-gray-600">
-        Estimate how much sleep you may be missing over time.
+        Estimate wake-up times based on your bedtime and sleep cycles.
       </p>
     </a>
   </div>

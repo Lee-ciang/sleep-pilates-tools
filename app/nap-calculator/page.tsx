@@ -123,7 +123,7 @@ export default function NapCalculatorPage() {
   <div className="mt-6 grid gap-4 sm:grid-cols-3">
     <a
       href="/sleep-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
         Sleep Calculator
@@ -134,25 +134,28 @@ export default function NapCalculatorPage() {
     </a>
 
     <a
-      href="/sleep-debt-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      href="/sleep-cycle-calculator"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
-      <h3 className="font-semibold">
-        Sleep Debt Calculator
-      </h3>
-      <p className="mt-2 text-sm text-gray-600">
-        Estimate how much sleep you may be missing over time.
-      </p>
-    </a>
-
-    <div className="rounded-lg border border-gray-200 p-5">
       <h3 className="font-semibold">
         Sleep Cycle Calculator
       </h3>
       <p className="mt-2 text-sm text-gray-600">
         Plan sleep around full 90-minute sleep cycles.
       </p>
-    </div>
+    </a>
+
+    <a
+      href="/bedtime-calculator"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
+    >
+      <h3 className="font-semibold">
+        Bedtime Calculator
+      </h3>
+      <p className="mt-2 text-sm text-gray-600">
+        Estimate when to go to bed based on your planned wake-up time.
+      </p>
+    </a>
   </div>
 </section>
       </div>

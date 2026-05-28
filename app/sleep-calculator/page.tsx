@@ -127,33 +127,42 @@ export default function SleepCalculatorPage() {
   </h2>
 
   <div className="mt-6 grid gap-4 sm:grid-cols-3">
-    <div className="rounded-lg border border-gray-200 p-5">
-      <h3 className="font-semibold">
-        Sleep Debt Calculator
-      </h3>
-      <p className="mt-2 text-sm text-gray-600">
-        Estimate how much sleep you may be missing over time.
-      </p>
-    </div>
+  <a
+    href="/sleep-debt-calculator"
+    className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
+  >
+    <h3 className="font-semibold">
+      Sleep Debt Calculator
+    </h3>
+    <p className="mt-2 text-sm text-gray-600">
+      Estimate how much sleep you may be missing over time.
+    </p>
+  </a>
 
-    <div className="rounded-lg border border-gray-200 p-5">
-      <h3 className="font-semibold">
-        Nap Calculator
-      </h3>
-      <p className="mt-2 text-sm text-gray-600">
-        Find a practical nap length based on your schedule.
-      </p>
-    </div>
+  <a
+    href="/nap-calculator"
+    className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
+  >
+    <h3 className="font-semibold">
+      Nap Calculator
+    </h3>
+    <p className="mt-2 text-sm text-gray-600">
+      Find a practical nap length based on your schedule.
+    </p>
+  </a>
 
-    <div className="rounded-lg border border-gray-200 p-5">
-      <h3 className="font-semibold">
-        Sleep Cycle Calculator
-      </h3>
-      <p className="mt-2 text-sm text-gray-600">
-        Plan sleep around full 90-minute sleep cycles.
-      </p>
-    </div>
-  </div>
+  <a
+    href="/sleep-cycle-calculator"
+    className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
+  >
+    <h3 className="font-semibold">
+      Sleep Cycle Calculator
+    </h3>
+    <p className="mt-2 text-sm text-gray-600">
+      Plan sleep around full 90-minute sleep cycles.
+    </p>
+  </a>
+</div>
 </section>
       </div>
     </main>

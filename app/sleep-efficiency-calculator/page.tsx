@@ -122,7 +122,7 @@ export default function SleepEfficiencyCalculatorPage() {
   <div className="mt-6 grid gap-4 sm:grid-cols-3">
     <a
       href="/sleep-duration-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
         Sleep Duration Calculator
@@ -134,7 +134,7 @@ export default function SleepEfficiencyCalculatorPage() {
 
     <a
       href="/sleep-debt-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
         Sleep Debt Calculator
@@ -146,7 +146,7 @@ export default function SleepEfficiencyCalculatorPage() {
 
     <a
       href="/sleep-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
         Sleep Calculator

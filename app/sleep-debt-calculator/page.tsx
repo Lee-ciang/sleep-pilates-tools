@@ -124,7 +124,7 @@ export default function SleepDebtCalculatorPage() {
   <div className="mt-6 grid gap-4 sm:grid-cols-3">
     <a
       href="/sleep-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
         Sleep Calculator
@@ -134,23 +134,29 @@ export default function SleepDebtCalculatorPage() {
       </p>
     </a>
 
-    <div className="rounded-lg border border-gray-200 p-5">
+    <a
+      href="/sleep-duration-calculator"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
+    >
       <h3 className="font-semibold">
-        Nap Calculator
+        Sleep Duration Calculator
       </h3>
       <p className="mt-2 text-sm text-gray-600">
-        Find a practical nap length based on your schedule.
+        Calculate total sleep time between bedtime and wake-up time.
       </p>
-    </div>
+    </a>
 
-    <div className="rounded-lg border border-gray-200 p-5">
+    <a
+      href="/sleep-efficiency-calculator"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
+    >
       <h3 className="font-semibold">
-        Sleep Cycle Calculator
+        Sleep Efficiency Calculator
       </h3>
       <p className="mt-2 text-sm text-gray-600">
-        Plan sleep around full 90-minute sleep cycles.
+        Estimate sleep efficiency using time asleep and time in bed.
       </p>
-    </div>
+    </a>
   </div>
 </section>
       </div>

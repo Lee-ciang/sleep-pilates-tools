@@ -120,20 +120,8 @@ export default function SleepDurationCalculatorPage() {
 
   <div className="mt-6 grid gap-4 sm:grid-cols-3">
     <a
-      href="/sleep-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
-    >
-      <h3 className="font-semibold">
-        Sleep Calculator
-      </h3>
-      <p className="mt-2 text-sm text-gray-600">
-        Find recommended bedtimes or wake-up times with a fall-asleep buffer.
-      </p>
-    </a>
-
-    <a
       href="/sleep-debt-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
         Sleep Debt Calculator
@@ -144,14 +132,26 @@ export default function SleepDurationCalculatorPage() {
     </a>
 
     <a
-      href="/sleep-cycle-calculator"
-      className="rounded-lg border border-gray-200 p-5 hover:border-blue-300"
+      href="/sleep-efficiency-calculator"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
     >
       <h3 className="font-semibold">
-        Sleep Cycle Calculator
+        Sleep Efficiency Calculator
       </h3>
       <p className="mt-2 text-sm text-gray-600">
-        Plan sleep around full 90-minute sleep cycles.
+        Estimate sleep efficiency using time asleep and time in bed.
+      </p>
+    </a>
+
+    <a
+      href="/sleep-calculator"
+      className="block rounded-lg border border-gray-200 p-5 transition hover:border-blue-300 hover:shadow-sm"
+    >
+      <h3 className="font-semibold">
+        Sleep Calculator
+      </h3>
+      <p className="mt-2 text-sm text-gray-600">
+        Find recommended bedtimes or wake-up times with a fall-asleep buffer.
       </p>
     </a>
   </div>

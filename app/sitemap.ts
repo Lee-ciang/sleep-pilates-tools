@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { allTools } from "@/app/toolData";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://sleep-pilates-tools.vercel.app";
@@ -10,61 +11,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 1,
     },
-
-    {
-      url: `${baseUrl}/sleep-calculator`,
+    ...allTools.map((tool) => ({
+      url: `${baseUrl}${tool.href}`,
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "weekly" as const,
       priority: 0.9,
-    },
-
-    {
-      url: `${baseUrl}/sleep-debt-calculator`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-
-    {
-      url: `${baseUrl}/nap-calculator`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-
-    {
-      url: `${baseUrl}/sleep-cycle-calculator`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-
-    {
-      url: `${baseUrl}/bedtime-calculator`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-
-    {
-      url: `${baseUrl}/wake-time-calculator`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-
-    {
-      url: `${baseUrl}/sleep-duration-calculator`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-
-    {
-      url: `${baseUrl}/sleep-efficiency-calculator`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
+    })),
   ];
 }
